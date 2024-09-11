@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
-        <title>MY Page</title>
+          <meta http-equiv="refresh" content="5">
+        <title>MY Page Using Html Tags</title>
         <style>
             html{
+                
                 scroll-behavior: smooth;
             }
+                  * {
+            margin: 0;
+            padding: 0;}
         </style>
-        
+
     </head>
         <body>
-        <a href="#Section1"> Section 1</a>
-        <a href="#Section2">Section 2</a>
-        <a href="#Section3">Section 3</a>
-        <a href="#Section4">Section 4</a>
-            <div id="Section1" style="width: 100vw; height: 100vh; background-color: #752222"> Section 1 </div>
-            <div id="Section2" style="width: 100vw; height: 100vh; background-color: #30c823"> Section 2 </div>
-            <div id="Section3" style="width: 100vw; height: 100vh; background-color: #0a0101"> Section 3 </div>
-            <div id="Section4" style="width: 100vw; height: 100vh; background-color: #a89999"> Section 4 </div>
-        </body>
+        <a href="#Section1"> Ordered List</a>
+        <a href="#Section2">Unordered List</a>
+        <a href="#Section3">Table</a>
+        <a href="#Section4"> Auto Refresh </a>
+        <a href="https://www.google.co.in/" target="_self" title="This will take you to google">Google</a>
+        <a href="page2.html"> Registration Form</a>
+            <div id="Section1" style="width: 100vw; height: 20vh; background-color: #c8baba"> <ol>  
+An ordered list 
+                <li>Team member</li>
+                <li>Crew</li>
+                <li>Vendor</li>
+            </ol> </div>
+            <div id="Section2" style="width: 100vw; height: 20vh; background-color: #dfecde"> <ul>
+                Unordered list
+                <li>Y1</li>
+                <li>Y2</li>
+                <li>Y3</li>
+            </ul></div>
+            <div id="Section3" style="width: 100vw; height: 20vh; background-color: #e1d7d7"> 
+                Table
+            <table>
+              <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+               </thead>
+                <tr>
+                    <td>Green</td>
+                    <td>ocean</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>White</td>
+                    <td>Sky </td>
+                    <td>25</td>
+                </tr>
+            </table>
+            </div>
+          <div id="Section4" style="width: 100vw; height: 20vh; background-color: #ebdede;"> Auto Refresh 
+             auto-refresh for a webpage using the "meta" tag, you need to include the "meta http-equiv="refresh" tag inside the (<head>) section of your HTML document. The content attribute of the meta tag determines how often in seconds the page should refresh.</div>
+        <div id="Section5" style="width: 100vw; height: 20vh; background-color: #e9e3e3;">
+<iframe 
+    width="560" 
+    height="160" 
+    src="https://www.youtube.com/embed/VIDEO_ID" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div>
+
     </head>
 </html>
