@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Example website using various HTML tags">
+    <title>HTML Tags Example</title>
+    <style>
+        /* Example of inline CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+        }
+        .code {
+            background-color: #f4f4f4;
+            border-left: 4px solid #ccc;
+            padding: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header tag -->
+    <header>
+        <h1>Welcome to the HTML Tags Example</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <section id="section1">
+            <h2>Section 1: Text Formatting</h2>
+            <p>This is a paragraph with <strong>strong</strong> text and <em>emphasized</em> text.</p>
+            <p>Here is a list of some common HTML tags:</p>
+            <ul>
+                <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                <li><cite>Citing a Source</cite></li>
+                <li><code>&lt;code&gt; for inline code</code></li>
+                <li><kbd>Ctrl + C</kbd> for keyboard input</li>
+            </ul>
+            <blockquote cite="https://www.example.com">
+                "This is a blockquote example."
+            </blockquote>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2: Multimedia Elements</h2>
+            <p>Here is an image:</p>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                <figcaption>This is a placeholder image.</figcaption>
+            </figure>
+            <p>Here is a video:</p>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Here is an audio file:</p>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3: Forms and Tables</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <table border="1">
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Footer</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer tag -->
+    <footer>
+        <p>&copy; 2024 HTML Tags Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
